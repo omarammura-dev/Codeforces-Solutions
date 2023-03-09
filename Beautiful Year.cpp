@@ -5,7 +5,6 @@ using namespace std;
 int unique(long long int number)
 {
     char seen[10] = {0};
-
     while (number) {
         int digit = number % 10;
         number /= 10;
